@@ -1,0 +1,10 @@
+@use "base" as *;
+
+.sidebar {
+  background-color: $color-primary;
+  grid-column: sidebar-start / sidebar-end;
+  grid-row: 1 / -1;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: right;
+}

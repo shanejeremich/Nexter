@@ -1,27 +1,6 @@
-@use "../abstracts" as *;
+@use "base" as *;
 
 .footer {
-  background-color: $color-grey-dark-3;
-  padding: 10rem 0;
-  font-size: 1.4rem;
-
-  &__logo-box {
-    width: 15rem;
-    height: auto;
-  }
-
-  &__logo {
-  }
-
-  &__navigation {
-  }
-
-  &__list {
-  }
-
-  &__item {
-  }
-
-  &__link {
-  }
+  background-color: $color-secondary;
+  grid-column: full-start / full-end;
 }
